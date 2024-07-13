@@ -19,14 +19,14 @@ git clone --depth=1 https://github.com/Lienol/openwrt-package
 # Add luci-app-passwall
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall2
-svn export https://github.com/xiaorouji/openwrt-passwall/branches/luci/luci-app-passwall
+svn export https://github.com/xiaorouji/openwrt-passwall/tree/luci-smartdns-dev/luci-app-passwall
 
 # Add luci-app-ssr-plus
 git clone --depth=1 https://github.com/fw876/helloworld
 
 # Add luci-app-vssr <M>
 git clone --depth=1 https://github.com/jerrykuku/lua-maxminddb.git
-git clone --depth=1 https://github.com/jerrykuku/luci-app-vssr 
+# git clone --depth=1 https://github.com/jerrykuku/luci-app-vssr
 
 # Add luci-proto-minieap
 git clone --depth=1 https://github.com/ysc3839/luci-proto-minieap
@@ -44,10 +44,10 @@ git clone --depth=1 https://github.com/sirpdboy/luci-app-autotimeset
 git clone --depth=1 https://github.com/tindy2013/openwrt-subconverter
 
 # Add luci-app-smartdns & smartdns
-svn export https://github.com/gngpp/openwrt-packages/trunk/luci-app-smartdns
+svn export https://github.com/pymumu/luci-app-smartdns/tree/lede
 
 # Add luci-app-services-wolplus
-svn export https://github.com/msylgj/OpenWrt_luci-app/trunk/luci-app-services-wolplus
+svn export https://github.com/msylgj/OpenWrt_luci-app/tree/main/luci-app-services-wolplus
 
 # Add luci-app-poweroff
 git clone --depth=1 https://github.com/esirplayground/luci-app-poweroff
